@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500&display=swap');
+
+html, body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    height: 100%;
+    color: white;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.medium-text {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.no-font {
+    font-family: initial !important;
+}
+
+iframe[seamless] {
+    border: none;
+}

@@ -1,0 +1,56 @@
+.sections {
+    align-content: center;
+}
+
+.sections > section {
+    height: 500px;
+}
+
+.part {
+    display: flex;
+    padding: 75px 20% 75px 20%;
+    width: 60%;
+}
+
+.part > .text {
+    padding-right: 10%;
+    width: 65%;
+}
+
+.part > .image {
+    height: 100%;
+    width: 35%;
+}
+
+.part > .image > img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1279px) {
+    .part {
+        display: block;
+    }
+    .part > .image {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 819px) {
+    .sections > section {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    .sections > section {
+        height: 900px;
+    }
+}
+
+.sections > section:nth-child(2n+1) {
+    background-color: #2E303E;
+}
+
+.sections > section:nth-child(2n+2) {
+    background-color: #333543;
+}
